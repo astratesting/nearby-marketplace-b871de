@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --charcoal: #1a1a2e;
+  --ivory: #f5f0e8;
+  --gold: #c9a96e;
+  --burgundy: #800020;
+}
+
+body {
+  background-color: var(--ivory);
+  color: var(--charcoal);
+}
